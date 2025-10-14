@@ -1,0 +1,269 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\MovieNest\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{77E897F0-E98D-4A52-B070-D41735FD041D}|MovieNest\\MovieNest.csproj|d:\\movienest\\movienest\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{77E897F0-E98D-4A52-B070-D41735FD041D}|MovieNest\\MovieNest.csproj|solutionrelative:movienest\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77E897F0-E98D-4A52-B070-D41735FD041D}|MovieNest\\MovieNest.csproj|d:\\movienest\\movienest\\views\\movies\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{77E897F0-E98D-4A52-B070-D41735FD041D}|MovieNest\\MovieNest.csproj|solutionrelative:movienest\\views\\movies\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77E897F0-E98D-4A52-B070-D41735FD041D}|MovieNest\\MovieNest.csproj|d:\\movienest\\movienest\\views\\movies\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{77E897F0-E98D-4A52-B070-D41735FD041D}|MovieNest\\MovieNest.csproj|solutionrelative:movienest\\views\\movies\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77E897F0-E98D-4A52-B070-D41735FD041D}|MovieNest\\MovieNest.csproj|d:\\movienest\\movienest\\controllers\\moviescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77E897F0-E98D-4A52-B070-D41735FD041D}|MovieNest\\MovieNest.csproj|solutionrelative:movienest\\controllers\\moviescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77E897F0-E98D-4A52-B070-D41735FD041D}|MovieNest\\MovieNest.csproj|d:\\movienest\\movienest\\views\\movies\\getbyid.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{77E897F0-E98D-4A52-B070-D41735FD041D}|MovieNest\\MovieNest.csproj|solutionrelative:movienest\\views\\movies\\getbyid.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77E897F0-E98D-4A52-B070-D41735FD041D}|MovieNest\\MovieNest.csproj|d:\\movienest\\movienest\\models\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77E897F0-E98D-4A52-B070-D41735FD041D}|MovieNest\\MovieNest.csproj|solutionrelative:movienest\\models\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77E897F0-E98D-4A52-B070-D41735FD041D}|MovieNest\\MovieNest.csproj|d:\\movienest\\movienest\\services\\movieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77E897F0-E98D-4A52-B070-D41735FD041D}|MovieNest\\MovieNest.csproj|solutionrelative:movienest\\services\\movieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77E897F0-E98D-4A52-B070-D41735FD041D}|MovieNest\\MovieNest.csproj|d:\\movienest\\movienest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77E897F0-E98D-4A52-B070-D41735FD041D}|MovieNest\\MovieNest.csproj|solutionrelative:movienest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77E897F0-E98D-4A52-B070-D41735FD041D}|MovieNest\\MovieNest.csproj|d:\\movienest\\movienest\\services\\interface\\imovieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77E897F0-E98D-4A52-B070-D41735FD041D}|MovieNest\\MovieNest.csproj|solutionrelative:movienest\\services\\interface\\imovieservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77E897F0-E98D-4A52-B070-D41735FD041D}|MovieNest\\MovieNest.csproj|d:\\movienest\\movienest\\views\\movies\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{77E897F0-E98D-4A52-B070-D41735FD041D}|MovieNest\\MovieNest.csproj|solutionrelative:movienest\\views\\movies\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77E897F0-E98D-4A52-B070-D41735FD041D}|MovieNest\\MovieNest.csproj|d:\\movienest\\movienest\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77E897F0-E98D-4A52-B070-D41735FD041D}|MovieNest\\MovieNest.csproj|solutionrelative:movienest\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77E897F0-E98D-4A52-B070-D41735FD041D}|MovieNest\\MovieNest.csproj|d:\\movienest\\movienest\\data\\moviedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77E897F0-E98D-4A52-B070-D41735FD041D}|MovieNest\\MovieNest.csproj|solutionrelative:movienest\\data\\moviedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77E897F0-E98D-4A52-B070-D41735FD041D}|MovieNest\\MovieNest.csproj|d:\\movienest\\movienest\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{77E897F0-E98D-4A52-B070-D41735FD041D}|MovieNest\\MovieNest.csproj|solutionrelative:movienest\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 15,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MovieDbContext.cs",
+              "DocumentMoniker": "D:\\MovieNest\\MovieNest\\Data\\MovieDbContext.cs",
+              "RelativeDocumentMoniker": "MovieNest\\Data\\MovieDbContext.cs",
+              "ToolTip": "D:\\MovieNest\\MovieNest\\Data\\MovieDbContext.cs",
+              "RelativeToolTip": "MovieNest\\Data\\MovieDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-13T10:55:15.324Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\MovieNest\\MovieNest\\Program.cs",
+              "RelativeDocumentMoniker": "MovieNest\\Program.cs",
+              "ToolTip": "D:\\MovieNest\\MovieNest\\Program.cs",
+              "RelativeToolTip": "MovieNest\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-13T10:51:35.094Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\MovieNest\\MovieNest\\appsettings.json",
+              "RelativeDocumentMoniker": "MovieNest\\appsettings.json",
+              "ToolTip": "D:\\MovieNest\\MovieNest\\appsettings.json",
+              "RelativeToolTip": "MovieNest\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-13T10:50:21.975Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MoviesController.cs",
+              "DocumentMoniker": "D:\\MovieNest\\MovieNest\\Controllers\\MoviesController.cs",
+              "RelativeDocumentMoniker": "MovieNest\\Controllers\\MoviesController.cs",
+              "ToolTip": "D:\\MovieNest\\MovieNest\\Controllers\\MoviesController.cs",
+              "RelativeToolTip": "MovieNest\\Controllers\\MoviesController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAmwBAAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-13T10:49:55.214Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Movie.cs",
+              "DocumentMoniker": "D:\\MovieNest\\MovieNest\\Models\\Movie.cs",
+              "RelativeDocumentMoniker": "MovieNest\\Models\\Movie.cs",
+              "ToolTip": "D:\\MovieNest\\MovieNest\\Models\\Movie.cs",
+              "RelativeToolTip": "MovieNest\\Models\\Movie.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-13T10:47:24.936Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\MovieNest\\MovieNest\\Views\\Movies\\Index.cshtml",
+              "RelativeDocumentMoniker": "MovieNest\\Views\\Movies\\Index.cshtml",
+              "ToolTip": "D:\\MovieNest\\MovieNest\\Views\\Movies\\Index.cshtml",
+              "RelativeToolTip": "MovieNest\\Views\\Movies\\Index.cshtml",
+              "ViewState": "AgIAACIAAAAAAAAAAAAuwDwAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-13T11:51:19.337Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MovieService.cs",
+              "DocumentMoniker": "D:\\MovieNest\\MovieNest\\Services\\MovieService.cs",
+              "RelativeDocumentMoniker": "MovieNest\\Services\\MovieService.cs",
+              "ToolTip": "D:\\MovieNest\\MovieNest\\Services\\MovieService.cs",
+              "RelativeToolTip": "MovieNest\\Services\\MovieService.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAzwCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-13T11:18:38.398Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\MovieNest\\MovieNest\\Views\\Movies\\Delete.cshtml",
+              "RelativeDocumentMoniker": "MovieNest\\Views\\Movies\\Delete.cshtml",
+              "ToolTip": "D:\\MovieNest\\MovieNest\\Views\\Movies\\Delete.cshtml",
+              "RelativeToolTip": "MovieNest\\Views\\Movies\\Delete.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAuwB0AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-13T12:36:58.994Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\MovieNest\\MovieNest\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "MovieNest\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\MovieNest\\MovieNest\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "MovieNest\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAABoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-13T11:47:08.91Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GetById.cshtml",
+              "DocumentMoniker": "D:\\MovieNest\\MovieNest\\Views\\Movies\\GetById.cshtml",
+              "RelativeDocumentMoniker": "MovieNest\\Views\\Movies\\GetById.cshtml",
+              "ToolTip": "D:\\MovieNest\\MovieNest\\Views\\Movies\\GetById.cshtml",
+              "RelativeToolTip": "MovieNest\\Views\\Movies\\GetById.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-14T04:07:28.433Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IMovieService.cs",
+              "DocumentMoniker": "D:\\MovieNest\\MovieNest\\Services\\Interface\\IMovieService.cs",
+              "RelativeDocumentMoniker": "MovieNest\\Services\\Interface\\IMovieService.cs",
+              "ToolTip": "D:\\MovieNest\\MovieNest\\Services\\Interface\\IMovieService.cs",
+              "RelativeToolTip": "MovieNest\\Services\\Interface\\IMovieService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAcAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-13T11:18:08.838Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\MovieNest\\MovieNest\\Views\\Movies\\Create.cshtml",
+              "RelativeDocumentMoniker": "MovieNest\\Views\\Movies\\Create.cshtml",
+              "ToolTip": "D:\\MovieNest\\MovieNest\\Views\\Movies\\Create.cshtml",
+              "RelativeToolTip": "MovieNest\\Views\\Movies\\Create.cshtml",
+              "ViewState": "AgIAABQAAAAAAAAAAAAuwCQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-13T11:31:23.352Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\MovieNest\\MovieNest\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "MovieNest\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\MovieNest\\MovieNest\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "MovieNest\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-13T11:46:03.305Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

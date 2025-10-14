@@ -1,0 +1,46 @@
+﻿@model MovieNest.Models.Movie
+
+<h1>Create Movie</h1>
+
+<form asp-action="Create" method="post">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+    <div class="mb-3">
+        <label asp-for="Name" class="form-label"></label>
+        <input asp-for="Name" class="form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="ReleaseDate" class="form-label"></label>
+        <input asp-for="ReleaseDate" type="date" class="form-control" />
+        <span asp-validation-for="ReleaseDate" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Casting" class="form-label"></label>
+        <input asp-for="Casting" class="form-control" />
+        <span asp-validation-for="Casting" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Director" class="form-label"></label>
+        <input asp-for="Director" class="form-control" />
+        <span asp-validation-for="Director" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Producer" class="form-label"></label>
+        <input asp-for="Producer" class="form-control" />
+        <span asp-validation-for="Producer" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Create</button>
+    <a asp-action="Index" class="btn btn-secondary">Back</a>
+</form>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

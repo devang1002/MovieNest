@@ -1,0 +1,65 @@
+﻿@model IEnumerable<MovieNest.Models.Movie>
+
+<h1>Movies List</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-success">Add New Movie</a>
+</p>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Release Date</th>
+            <th>Casting</th>
+            <th>Director</th>
+            <th>Producer</th>
+            <th>Actions</th> <!-- New column -->
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var movie in Model)
+        {
+            <tr>
+                <td>@movie.Name</td>
+                <td>@movie.ReleaseDate.ToShortDateString()</td>
+                <td>@movie.Casting</td>
+                <td>@movie.Director</td>
+                <td>@movie.Producer</td>
+                <td>
+                    <a asp-controller="Movies"
+                       asp-action="GetById"
+                       asp-route-id="@movie.Id"
+                       class="btn btn-info btn-sm me-2">
+                        Details
+                    </a>
+
+                    <button type="button" class="btn btn-danger btn-sm" data-bs-toggle="modal" data-bs-target="#deleteModal-@movie.Id">
+                        Delete
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="deleteModal-@movie.Id" tabindex="-1" aria-labelledby="deleteModalLabel-@movie.Id" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header bg-danger text-white">
+                                    <h5 class="modal-title" id="deleteModalLabel-@movie.Id">Delete Movie</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    Are you sure you want to delete <strong>@movie.Name</strong>?
+                                </div>
+                                <div class="modal-footer">
+                                    <form asp-action="Delete" asp-route-id="@movie.Id" method="post">
+                                        <button type="submit" class="btn btn-danger">Yes, Delete</button>
+                                    </form>
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
