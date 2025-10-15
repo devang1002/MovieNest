@@ -1,18 +1,19 @@
 # 🎬 MovieNest
 
-**MovieNest** is a simple **ASP.NET Core MVC** web application that allows users to manage movie details — including name, release date, producer, director, and casting.  
-This project demonstrates **CRUD operations (Create, Read, Update, Delete)** using **Entity Framework Core** and **SQL Server** as the database.  
-
+**MovieNest** is a simple **ASP.NET Core MVC** web application that allows users to manage movie details — including name, release date, producer, director, and casting.
+This project demonstrates **CRUD operations (Create, Read, Delete)** using **Entity Framework Core** and **SQL Server** as the database.
 It’s an excellent example of connecting a .NET Core MVC application with a real database and managing records through a clean UI.
 
 ---
 
 ## 🧩 Key Features
 
-- 🎥 Add, edit, view, and delete movies  
-- 🗄️ SQL Server database integration  
-- ⚙️ Entity Framework Core ORM  
-- 🧰 Dependency Injection for services  
+* 🎥 Add, edit, view, and delete movies
+* 🗄️ SQL Server database integration
+* ⚙️ Entity Framework Core
+* 🧰 Dependency Injection for services
+* 🧑‍💻 Simple UI with MVC architecture
+* 🔄 Supports CRUD operations with clean separation of concerns
 
 ---
 
@@ -22,10 +23,10 @@ It’s an excellent example of connecting a .NET Core MVC application with a rea
 
 Before running the project, ensure the following are installed:
 
-- [.NET 8 SDK or later](https://dotnet.microsoft.com/download)
-- [SQL Server](https://www.microsoft.com/en-us/sql-server/sql-server-downloads)
-- [SQL Server Management Studio (SSMS)](https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms)
-- [Visual Studio 2022](https://visualstudio.microsoft.com/) or [Visual Studio Code](https://code.visualstudio.com/)
+* [.NET 8 SDK or later](https://dotnet.microsoft.com/download)
+* [SQL Server](https://www.microsoft.com/en-us/sql-server/sql-server-downloads)
+* [SQL Server Management Studio (SSMS)](https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms)
+* [Visual Studio 2022](https://visualstudio.microsoft.com/)
 
 ---
 
@@ -36,23 +37,24 @@ Open **Git Bash** or **Command Prompt**, then run:
 ```bash
 git clone https://github.com/<your-username>/MovieNest.git
 cd MovieNest
+```
+
+---
 
 ## ⚙️ Step 2: Database Setup
 
--- Open SQL Server Management Studio (SSMS)
+1. Open **SQL Server Management Studio (SSMS)**.
+2. Connect to your **SQL Server instance**.
+3. Click **File → Open → File…** and select the database script given below.
+4. Press **Execute (F5)** to run the script.
 
--- Connect to your SQL Server instance
+This will create the `MovieNest` database and `Movies` table.
 
--- Click File → Open → File… and select Database Script given below
+---
 
--- Press Execute (F5) to run the script
+### 🗄️ Database Script
 
-This will create the MovieNest database and Movies table.
-
--------------
-
-@@ Database Script:
-
+```sql
 CREATE DATABASE [MovieNest]
 
 USE [MovieNest]
@@ -95,11 +97,19 @@ CONSTRAINT [PK_Movies] PRIMARY KEY CLUSTERED
 
 GO
  
+ 
+ 
+```
 
-## ⚙️ Step 3: Connecting database
+---
 
+## ⚙️ Step 3: Connecting Database
+
+Open the **`appsettings.json`** file and update the connection string:
+
+```json
 "ConnectionStrings": {
-  "MovieNest": "Data Source=<your SQL Server instance name>;Initial Catalog=MovieNest;Integrated Security=True; TrustServerCertificate=True"
-},
- 
- 
+  "MovieNest": "Data Source=<your SQL Server instance name>;Initial Catalog=MovieNest;Integrated Security=True;TrustServerCertificate=True"
+}
+```
+
